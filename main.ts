@@ -1087,7 +1087,7 @@ function levels2 () {
         refresh_hearts()
     } else if (1 == levels) {
         tiles.setCurrentTilemap(tilemap`level1`)
-        for (let value of tiles.getTilesByType(assets.tile`myTile3`)) {
+        for (let value of tiles.getTilesByType(assets.tile`transparency16`)) {
             fishy = sprites.create(img`
                 . . . . . . . . . . . . . . . . 
                 . . . . . c . c . c . c . . . . 
@@ -1107,10 +1107,10 @@ function levels2 () {
                 . . . . . . . . . . . . . . . . 
                 `, SpriteKind.enemeny)
             tiles.placeOnTile(fishy, value)
-            tiles.placeOnRandomTile(fishy, assets.tile`myTile3`)
+            tiles.placeOnRandomTile(fishy, assets.tile`transparency16`)
             tiles.setTileAt(value, assets.tile`transparency16`)
         }
-        for (let value of tiles.getTilesByType(assets.tile`myTile0`)) {
+        for (let value of tiles.getTilesByType(assets.tile`transparency16`)) {
             fishy = sprites.create(img`
                 . . . . . . . . . . . . . . . . 
                 . . . . . c . c . c . c . . . . 
@@ -1130,10 +1130,10 @@ function levels2 () {
                 . . . . . . . . . . . . . . . . 
                 `, SpriteKind.enemeny)
             tiles.placeOnTile(fishy, value)
-            tiles.placeOnRandomTile(fishy, assets.tile`myTile3`)
+            tiles.placeOnRandomTile(fishy, assets.tile`transparency16`)
             tiles.setTileAt(value, assets.tile`transparency16`)
         }
-        for (let value of tiles.getTilesByType(assets.tile`myTile1`)) {
+        for (let value of tiles.getTilesByType(assets.tile`transparency16`)) {
             fishy = sprites.create(img`
                 . . . . . . . . . . . . . . . . 
                 . . . . . c . c . c . c . . . . 
@@ -1153,10 +1153,10 @@ function levels2 () {
                 . . . . . . . . . . . . . . . . 
                 `, SpriteKind.enemeny)
             tiles.placeOnTile(fishy, value)
-            tiles.placeOnRandomTile(fishy, assets.tile`myTile3`)
+            tiles.placeOnRandomTile(fishy, assets.tile`transparency16`)
             tiles.setTileAt(value, assets.tile`transparency16`)
         }
-        for (let value of tiles.getTilesByType(assets.tile`myTile3`)) {
+        for (let value of tiles.getTilesByType(assets.tile`transparency16`)) {
             fishy = sprites.create(img`
                 . . . . . . . . . . . . . . . . 
                 . . . . . c . c . c . c . . . . 
@@ -1176,7 +1176,7 @@ function levels2 () {
                 . . . . . . . . . . . . . . . . 
                 `, SpriteKind.enemeny)
             tiles.placeOnTile(fishy, value)
-            tiles.placeOnRandomTile(fishy, assets.tile`myTile3`)
+            tiles.placeOnRandomTile(fishy, assets.tile`transparency16`)
             tiles.setTileAt(value, assets.tile`transparency16`)
         }
     } else if (2 == levels) {
@@ -1185,7 +1185,7 @@ function levels2 () {
         sprites.destroyAllSpritesOfKind(SpriteKind.Enemy)
         coins = 0
         refresh_coins()
-        for (let value of tiles.getTilesByType(assets.tile`myTile1`)) {
+        for (let value of tiles.getTilesByType(assets.tile`transparency16`)) {
             fishy = sprites.create(img`
                 . . . . . . . . . . . . . . . . 
                 . . . . . c . c . c . c . . . . 
@@ -1205,10 +1205,10 @@ function levels2 () {
                 . . . . . . . . . . . . . . . . 
                 `, SpriteKind.enemeny)
             tiles.placeOnTile(fishy, value)
-            tiles.placeOnRandomTile(fishy, assets.tile`myTile3`)
+            tiles.placeOnRandomTile(fishy, assets.tile`transparency16`)
             tiles.setTileAt(value, assets.tile`transparency16`)
         }
-        for (let value of tiles.getTilesByType(assets.tile`myTile0`)) {
+        for (let value of tiles.getTilesByType(assets.tile`transparency16`)) {
             fishy = sprites.create(img`
                 . . . . . . . . . . . . . . . . 
                 . . . . . c . c . c . c . . . . 
@@ -1228,7 +1228,7 @@ function levels2 () {
                 . . . . . . . . . . . . . . . . 
                 `, SpriteKind.enemeny)
             tiles.placeOnTile(fishy, value)
-            tiles.placeOnRandomTile(fishy, assets.tile`myTile3`)
+            tiles.placeOnRandomTile(fishy, assets.tile`transparency16`)
             tiles.setTileAt(value, assets.tile`transparency16`)
         }
     }
